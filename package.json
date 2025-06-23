@@ -1,0 +1,20 @@
+{
+  "name": "pinceladasintimas",
+  "version": "1.0.0",
+  "description": "Es una aplicación web diseñada como herramienta de apoyo terapéutico, donde los usuarios pueden escribir y dibujar con ambas manos —dominante y no dominante— para fomentar la conexión entre hemisferios cerebrales, desbloquear emociones y explorar la creatividad desde un enfoque íntimo y personal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chel-art/pinceladasIntimas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chel-art/pinceladasIntimas/issues"
+  },
+  "homepage": "https://github.com/Chel-art/pinceladasIntimas#readme"
+}
