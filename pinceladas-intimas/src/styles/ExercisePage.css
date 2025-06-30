@@ -79,3 +79,214 @@ label {
 #save-button:hover {
   background-color: #218838;
 }
+
+/* Estilos para la Rueda de Emociones */
+.rueda-emociones-container {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.rueda-emociones-container h2 {
+  color: #495057;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.rueda-emociones-container p {
+  color: #6c757d;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+#svgObject {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 200px;
+  z-index: 1000;
+  display: none;
+  pointer-events: none;
+}
+
+.tooltip strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffd700;
+}
+
+.tooltip em {
+  font-style: italic;
+  color: #e9ecef;
+}
+
+/* Tooltip para SVG inline */
+#svg-tooltip {
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  display: none;
+  pointer-events: none;
+  max-width: 180px;
+  z-index: 1000;
+}
+
+/* Efecto hover text */
+text.label:hover {
+  font-weight: bold;
+  fill: #000;
+}
+
+/* Flip-card para la Rueda de Emociones */
+.flip-card {
+  perspective: 1000px;
+  display: inline-block;
+  margin: 0 auto;
+  width: fit-content; /* Ajusta al tamaño del contenido (SVG) */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  display: inline-block;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  z-index: 2;
+}
+
+.flip-card-front object {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+/* Asegurar que el contenedor ajuste altura al SVG */
+.rueda-emociones-container .flip-card-inner,
+.rueda-emociones-container .flip-card-front,
+.rueda-emociones-container .flip-card-back {
+  width: 100%;
+}
+
+/* Estilos para emoción seleccionada */
+.selected-emotion {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Actualizar colores de flip-card-back dinámicamente */
+.flip-card-back {
+  /* background-color se aplicará por JS */
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase; /* Mayúsculas para primarias, cambia JS para secundarios*/
+}
+
+/* Ajustar alineación del SVG */
+.rueda-emociones-container object {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Ajustes para la visualización del SVG de la rueda */
+rueda-emociones-container svg {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  margin: 40px auto;
+  display: block;
+  background-color: transparent; /* quitar fondo */
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+
+/* Estilo de las etiquetas de emociones */
+.label {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 13px;
+  text-anchor: middle;
+  fill: #333333;
+  pointer-events: auto;
+  user-select: none;
+  cursor: pointer;
+}
+
+/* Tooltip para SVG inline (idem) */
+#svg-tooltip {
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  display: none;
+  pointer-events: none;
+  max-width: 180px;
+  z-index: 1000;
+}
+
+/* Colores pastel para la rueda de emociones */
+.rueda-emociones-container svg circle.primary {
+  fill: #FADBD8; /* pastel coral para emociones primarias */
+}
+
+.rueda-emociones-container svg circle.secondary {
+  fill: #FCF3CF; /* pastel amarillo claro para secundarias */
+}
+
+.rueda-emociones-container svg circle.tertiary {
+  fill: #D5F5E3; /* pastel verde claro para terciarias */
+}
+
+.rueda-emociones-container text.label {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 12px;
+  text-anchor: middle;
+  fill: #333;
+}
