@@ -1,0 +1,7 @@
+/* SessionPage styles */
+.session-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}

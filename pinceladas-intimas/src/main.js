@@ -1,13 +1,25 @@
 import { HomePage } from './pages/HomePage.js';
+import { AuthPage } from './pages/AuthPage.js';
 import { ExercisePage } from './pages/ExercisePage.js';
+import { DiaryPage } from './pages/DiaryPage.js';
+import { ConnectionPage } from './pages/ConnectionPage.js';
+import { ChatPage } from './pages/ChatPage.js';
+import { SessionPage } from './pages/SessionPage.js';
+import { ProfilePage } from './pages/ProfilePage.js';
 import './styles/main.css';
 
 const appElement = document.querySelector('#app');
 
-// Un router simple para cambiar de página
+// Definición de rutas para navegación
 const routes = {
-  '/': HomePage,
-  '/exercise': ExercisePage,
+  '/': HomePage,                // Landing Page
+  '/auth': AuthPage,            // Registro / Login
+  '/exercise': ExercisePage,    // Selección de emoción
+  '/diary': DiaryPage,          // Diario emocional
+  '/connect': ConnectionPage,   // Conexión con psicólogo
+  '/chat': ChatPage,            // Mensajes
+  '/session': SessionPage,      // Agendar sesión
+  '/profile': ProfilePage       // Perfil de usuario
 };
 
 // Función para renderizar la página correcta según la URL
@@ -30,6 +42,6 @@ window.addEventListener('popstate', render);
 // Renderizar la página inicial
 render();
 
-// Para que veas la nueva página de ejercicios, la cargamos directamente.
-// Más adelante, puedes añadir un botón en la HomePage que llame a navigateTo('/exercise');
-window.navigateTo('/exercise');
+// Inicializar en la página de inicio
+// Más adelante, los CTA en HomePage dirigirán al usuario usando navigateTo
+// window.navigateTo('/exercise');

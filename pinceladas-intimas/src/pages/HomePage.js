@@ -5,10 +5,20 @@ export function HomePage() {
   homeElement.classList.add('home-container');
 
   homeElement.innerHTML = `
-    <header class="app-header">
-      <h1>Pinceladas Íntimas</h1>
-      <p>Una herramienta de autodescubrimiento a través de la escritura y el dibujo bilateral.</p>
-    </header>
+  <header class="app-header">
+    <h1>Pinceladas Íntimas</h1>
+    <p>Una herramienta de autodescubrimiento a través de la escritura y el dibujo bilateral.</p>
+  </header>
+  <div class="cta">
+    <div class="cta-buttons">
+      <button class="register" onclick="window.navigateTo('/auth#register')">Regístrate</button>
+      <button class="login" onclick="window.navigateTo('/auth#login')">Inicia sesión</button>
+    </div>
+    <div class="cta-links">
+      <a href="javascript:void(0)" onclick="window.navigateTo('/exercise')">¿Qué es una Rueda Emocional?</a>
+      <a href="javascript:void(0)" onclick="window.navigateTo('/connect')">Conecta con profesionales</a>
+    </div>
+  </div>
     <main class="app-main">
       <section class="intro-section">
         <h2>🧠 Por qué funciona desde un punto de vista psicológico</h2>

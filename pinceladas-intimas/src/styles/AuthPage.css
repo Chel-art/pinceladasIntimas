@@ -1,0 +1,7 @@
+/* AuthPage styles */
+.auth-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}

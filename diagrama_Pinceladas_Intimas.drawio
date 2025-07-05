@@ -1,0 +1,602 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="codeviz-diagram" name="System Diagram">
+    <mxGraphModel dx="2423" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="search-results-group-e763df6636e9ff36702d8c878f8560b6" value="Search Results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="1" vertex="1">
+          <mxGeometry x="12" y="12" width="3790" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="430" y="510" width="390" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="backend_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" value="Backend&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" vertex="1">
+          <mxGeometry x="190" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbJs_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" value="Database Config&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" vertex="1">
+          <mxGeometry x="190" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="frontend_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" value="Frontend&lt;br&gt;JavaScript, HTML, CSS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" vertex="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mainJs_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" value="Main Logic&lt;br&gt;JavaScript" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" vertex="1">
+          <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pagesDir_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" value="Views&lt;br&gt;Frontend Pages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper_label" value="Arquitectura General" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="438" y="518" width="314" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="1570" y="480" width="540" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="homePageCss_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" value="Page Styles&lt;br&gt;CSS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper" vertex="1">
+          <mxGeometry x="190" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="landingPage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" value="Landing Page&lt;br&gt;UI Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper" vertex="1">
+          <mxGeometry x="70" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="loginBtn_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" value="Login Button&lt;br&gt;UI Element" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper" vertex="1">
+          <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="registerBtn_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" value="Register Button&lt;br&gt;UI Element" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper" vertex="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper_label" value="1. Inicio / Landing Page" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="1578" y="488" width="464" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="50" y="510" width="390" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" value="Backend Logic&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper" vertex="1">
+          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbModule_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" value="Database Module&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper" vertex="1">
+          <mxGeometry x="190" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="loginPage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" value="Login/Register UI&lt;br&gt;JavaScript" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper" vertex="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="userTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" value="User Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper_label" value="2. Registro / Inicio de sesión" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="58" y="518" width="314" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2330" y="460" width="560" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" value="Backend Logic&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" vertex="1">
+          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diaryEntryTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" value="DiaryEntry Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" vertex="1">
+          <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emotionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" value="Emotion Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emotionWheelUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" value="Emotion Wheel UI&lt;br&gt;JavaScript" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" vertex="1">
+          <mxGeometry x="90" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svgWheel1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" value="Emotion Wheel SVG&lt;br&gt;Asset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" vertex="1">
+          <mxGeometry x="360" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svgWheel2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" value="Emotion Wheel SVG&lt;br&gt;Asset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" vertex="1">
+          <mxGeometry x="210" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper_label" value="3. Selección de Emoción (Rueda Emocional Interactiva)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2338" y="468" width="484" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2880" y="450" width="390" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" value="Backend Logic&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper" vertex="1">
+          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diaryEntryTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" value="DiaryEntry Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper" vertex="1">
+          <mxGeometry x="190" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emotionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" value="Emotion Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="userDashboard_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" value="User Dashboard UI&lt;br&gt;JavaScript" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper" vertex="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper_label" value="4. Diario emocional" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2888" y="458" width="314" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="810" y="500" width="390" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" value="Backend Logic&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper" vertex="1">
+          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="connectionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" value="Connection Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper" vertex="1">
+          <mxGeometry x="190" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="userTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" value="User Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="userUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" value="User Interface&lt;br&gt;Frontend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper" vertex="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper_label" value="5. Conexión con Psicólogo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="818" y="508" width="314" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="1190" y="490" width="390" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" value="Backend Logic&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper" vertex="1">
+          <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="chatUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" value="Chat Interface&lt;br&gt;Frontend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper" vertex="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="connectionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" value="Connection Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper" vertex="1">
+          <mxGeometry x="190" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="messageTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" value="Message Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper_label" value="6. Mensajes y acompañamiento" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="1198" y="498" width="314" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2100" y="470" width="240" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" value="Backend Logic&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper" vertex="1">
+          <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sessionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" value="Session Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sessionUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" value="Session Management UI&lt;br&gt;Frontend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper" vertex="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper_label" value="7. Agendar sesión" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2108" y="478" width="164" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" value="" style="html=1;whiteSpace=wrap;container=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;fillOpacity=20;strokeWidth=2;containerType=none;recursiveResize=0;movable=1;resizable=1;autosize=0;dropTarget=0" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="3260" y="440" width="540" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" value="Backend Logic&lt;br&gt;Node.js" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" vertex="1">
+          <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="connectionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" value="Connection Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" vertex="1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="profilePage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" value="User Profile Page&lt;br&gt;JavaScript" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" vertex="1">
+          <mxGeometry x="70" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sessionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" value="Session Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" vertex="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="userTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" value="User Table&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" vertex="1">
+          <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper_label" value="8. Perfil de usuario" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;labelBackgroundColor=white;spacing=5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="3268" y="448" width="464" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="search-result-e763df6636e9ff36702d8c878f8560b6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="203" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="203" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="535" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="1750" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="155" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2520" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2985" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="915" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="1295" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="2130" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="report-section-e763df6636e9ff36702d8c878f8560b6-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="search-results-group-e763df6636e9ff36702d8c878f8560b6" vertex="1">
+          <mxGeometry x="3440" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="terminal-e763df6636e9ff36702d8c878f8560b6" value="Terminal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5" parent="1" vertex="1">
+          <mxGeometry x="1847" y="1252" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-edge-search-to-terminal-e763df6636e9ff36702d8c878f8560b6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="search-results-group-e763df6636e9ff36702d8c878f8560b6" target="terminal-e763df6636e9ff36702d8c878f8560b6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-edge-search-to-terminal-e763df6636e9ff36702d8c878f8560b6_label" value="Provides context to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-edge-search-to-terminal-e763df6636e9ff36702d8c878f8560b6" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_frontend_backend_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="frontend_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" target="backend_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_frontend_backend_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General_label" value="serves UI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_frontend_backend_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_frontend_mainJs_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="frontend_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" target="mainJs_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_frontend_mainJs_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General_label" value="uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_frontend_mainJs_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_mainJs_pagesDir_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="mainJs_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" target="pagesDir_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_mainJs_pagesDir_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General_label" value="manages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_mainJs_pagesDir_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backend_dbJs_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backend_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" target="dbJs_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backend_dbJs_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General_label" value="interacts with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backend_dbJs_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-1-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-1" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-1-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-1-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-Arquitectura-General-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_landingPage_homePageCss_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="landingPage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" target="homePageCss_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_landingPage_homePageCss_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page_label" value="uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_landingPage_homePageCss_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_landingPage_registerBtn_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="landingPage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" target="registerBtn_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_landingPage_registerBtn_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page_label" value="leads to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_landingPage_registerBtn_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_landingPage_loginBtn_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="landingPage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" target="loginBtn_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_landingPage_loginBtn_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page_label" value="leads to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_landingPage_loginBtn_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-2-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-2" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-2-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-2-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-1.-Inicio-/-Landing-Page-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_loginPage_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="loginPage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_loginPage_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión_label" value="sends credentials" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_loginPage_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_userTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" target="userTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_userTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión_label" value="validates/authenticates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_userTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_dbModule_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" target="dbModule_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_dbModule_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión_label" value="uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_dbModule_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-3-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-3" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-3-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-3-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-2.-Registro-/-Inicio-de-sesión-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_emotionWheelUI_svgWheel1_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="emotionWheelUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" target="svgWheel1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_emotionWheelUI_svgWheel1_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)_label" value="uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_emotionWheelUI_svgWheel1_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_emotionWheelUI_svgWheel2_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="emotionWheelUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" target="svgWheel2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_emotionWheelUI_svgWheel2_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)_label" value="uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_emotionWheelUI_svgWheel2_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_emotionWheelUI_backendIndex_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="emotionWheelUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_emotionWheelUI_backendIndex_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)_label" value="sends emotion data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_emotionWheelUI_backendIndex_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_emotionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" target="emotionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_emotionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)_label" value="stores in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_emotionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_diaryEntryTable_4_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" target="diaryEntryTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_diaryEntryTable_4_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)_label" value="stores in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_diaryEntryTable_4_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-4-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-4" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-4-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-4-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-3.-Selección-de-Emoción-(Rueda-Emocional-Interactiva)-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_userDashboard_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="userDashboard_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_userDashboard_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional_label" value="requests entries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_userDashboard_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_diaryEntryTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" target="diaryEntryTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_diaryEntryTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional_label" value="retrieves from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_diaryEntryTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_emotionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" target="emotionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_emotionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional_label" value="joins with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_emotionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_userDashboard_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" target="userDashboard_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_userDashboard_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional_label" value="sends data to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_userDashboard_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-5-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-5" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-5-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-5-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-4.-Diario-emocional-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_userUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="userUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_userUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo_label" value="requests connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_userUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_userTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" target="userTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_userTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo_label" value="queries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_userTable_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_connectionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" target="connectionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_connectionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo_label" value="manages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_connectionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-6-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-6" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-6-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-6-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-5.-Conexión-con-Psicólogo-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_chatUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="chatUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_chatUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento_label" value="sends message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_chatUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_chatUI_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="chatUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_chatUI_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento_label" value="requests messages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_chatUI_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_messageTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" target="messageTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_messageTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento_label" value="stores/retrieves" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_messageTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_connectionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" target="connectionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_connectionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento_label" value="uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_connectionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-7-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-7" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-7-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-7-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-6.-Mensajes-y-acompañamiento-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_sessionUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="sessionUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_sessionUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión_label" value="requests session" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_sessionUI_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_sessionUI_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="sessionUI_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_sessionUI_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión_label" value="accepts/cancels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_sessionUI_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_sessionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" target="sessionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_sessionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión_label" value="manages" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_sessionTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-8-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-8" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-8-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-8-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-7.-Agendar-sesión-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_profilePage_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="profilePage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_profilePage_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario_label" value="requests data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_profilePage_backendIndex_0_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_profilePage_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="profilePage_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" target="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_profilePage_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario_label" value="sends updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_profilePage_backendIndex_1_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_userTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" target="userTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_userTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario_label" value="retrieves from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_userTable_2_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_connectionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" target="connectionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_connectionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario_label" value="retrieves from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_connectionTable_3_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_sessionTable_4_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="backendIndex_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" target="sessionTable_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-L_backendIndex_sessionTable_4_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario_label" value="retrieves from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-L_backendIndex_sessionTable_4_e763df6636e9ff36702d8c878f8560b6_section_section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-9-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-9" target="section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-9-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper_label" value="Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="edge-report-section-e763df6636e9ff36702d8c878f8560b6-9-to-section-diagram-e763df6636e9ff36702d8c878f8560b6-8.-Perfil-de-usuario-wrapper" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-search-result-e763df6636e9ff36702d8c878f8560b6-to-report-section-e763df6636e9ff36702d8c878f8560b6-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="search-result-e763df6636e9ff36702d8c878f8560b6" target="report-section-e763df6636e9ff36702d8c878f8560b6-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-report-section-e763df6636e9ff36702d8c878f8560b6-0-to-report-section-e763df6636e9ff36702d8c878f8560b6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;strokeWidth=2;jumpStyle=arc;jumpSize=10;spacing=15;labelBackgroundColor=white;labelBorderColor=none" parent="1" source="report-section-e763df6636e9ff36702d8c878f8560b6-0" target="report-section-e763df6636e9ff36702d8c878f8560b6-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
