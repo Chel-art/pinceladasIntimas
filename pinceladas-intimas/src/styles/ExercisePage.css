@@ -9,7 +9,7 @@
   text-align: center;
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background-color: #f8f9fa;
+  background-color: #bdd6ef;
   border-radius: 8px;
 }
 
@@ -24,14 +24,14 @@
   font-size: 1rem;
   border: none;
   border-radius: 5px;
-  background-color: #343a40;
+  background-color: #4580bb;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 #prompt-button:hover, #save-button:hover {
-  background-color: #495057;
+  background-color: #4a90d6;
 }
 
 .workspace {
@@ -91,13 +91,13 @@ label {
 }
 
 .rueda-emociones-container h2 {
-  color: #495057;
+  color: #2c3b4a;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
 }
 
 .rueda-emociones-container p {
-  color: #6c757d;
+  color: #2c3b4a;
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
@@ -255,6 +255,8 @@ rueda-emociones-container svg {
   pointer-events: auto;
   user-select: none;
   cursor: pointer;
+  letter-spacing: 0.5px;    /* espaciado entre letras */
+  word-spacing: 2px;        /* espaciado entre palabras */
 }
 
 /* Tooltip para SVG inline (idem) */

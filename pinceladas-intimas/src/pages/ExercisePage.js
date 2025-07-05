@@ -91,20 +91,20 @@ export function ExercisePage() {
         <!-- Emociones secundarias -->
         <text x="300" y="160" class="label">Excitación</text>
         <text x="390" y="200" class="label">Gozo</text>
-        <text x="420" y="300" class="label">Energía</text>
+        <text x="440" y="300" class="label">Energía</text>
         <text x="390" y="400" class="label">Comodidad</text>
         <text x="300" y="440" class="label">Reconocimiento</text>
         <text x="210" y="400" class="label">Aprecio</text>
-        <text x="180" y="300" class="label">Melancolía</text>
+        <text x="160" y="300" class="label">Melancolía</text>
         <text x="210" y="200" class="label">Desconsuelo</text>
         <!-- Emociones terciarias -->
         <text x="300" y="220" class="label">Vacío</text>
         <text x="350" y="250" class="label">Aislamiento</text>
-        <text x="380" y="300" class="label">Vergüenza</text>
+        <text x="360" y="300" class="label">Vergüenza</text>
         <text x="350" y="350" class="label">Remordimiento</text>
         <text x="300" y="380" class="label">Ansiedad</text>
         <text x="250" y="350" class="label">Incertidumbre</text>
-        <text x="220" y="300" class="label">Pánico</text>
+        <text x="240" y="300" class="label">Pánico</text>
         <text x="250" y="250" class="label">Parálisis</text>
         <text x="300" y="270" class="label">Tensión</text>
         <text x="300" y="330" class="label">Alerta</text>
